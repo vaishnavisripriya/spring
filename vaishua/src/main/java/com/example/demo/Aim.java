@@ -12,7 +12,7 @@ public class Aim {
 	@Value("simple")
 	private String code;
 	String vaish="priya" ;
-	@RequestMapping("/")
+	@RequestMapping("/vaishu")
 	@ResponseBody
 	public String priya() {
 		return "hi" +"<br>"+ name +"<br>"+ code +vaish;
